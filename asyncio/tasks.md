@@ -60,8 +60,8 @@ results = await asyncio.gather(coro1(), coro2(), coro3())
 #### Error Handling in gather()
 
 If any coroutine raises an exception, gather():
-- Cancels all other tasks
-- Raises that exception after all tasks finish
+    - Cancels all other tasks
+    - Raises that exception after all tasks finish
 
 But! You can tell `gather()` to return exceptions instead~(Refer `7_asyncio.py`):
 
@@ -88,10 +88,10 @@ It is  a modern and cleaner way to manage multiple async tasks with error handli
 - Replaces manually using asyncio.create_task() + await gather(...)
 
 - Automatically:
--- Starts all tasks
--- Waits for all of them to complete
--- Cancels the rest if any task fails
--- Collects exceptions after all tasks are done
+    - Starts all tasks
+    - Waits for all of them to complete
+    - Cancels the rest if any task fails
+    - Collects exceptions after all tasks are done
 
 
 - asyncio.TaskGroup was introduced in Python 3.11.
