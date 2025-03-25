@@ -60,7 +60,7 @@ This is how a semaphore works.
 | Asyncio equivalent     | `asyncio.Lock()`              | `asyncio.Semaphore(n)`               |
 
 
-### What is an Event?
+### What is an Event? (refer `11_asyncio.py`)
 
 - An Event is a flag-based synchronization primitive. 
   It acts like a signal between threads (or coroutines), letting one wait for something to happen — like a green light.
