@@ -26,6 +26,7 @@ async def main():
 
     # The event loop says: “Okay, now it’s time to run `fetch_data(2)`` coroutine!”
     # It jumps into `fetch_data(2)`
+    # waits until done
     result = await task
     print(f"Received result: {result}")
 
