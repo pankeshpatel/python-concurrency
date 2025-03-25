@@ -1,10 +1,8 @@
 ### python-concurrency
 
-#### asyncio
-    - `asyncio` is a Python library used for concurrent programming using coroutines, event loops, and tasks.
-
-
-
+- `asyncio` (single thread, event-loop): It is a Python library used for concurrent programming using coroutines, event loops, and tasks.
+- `threading` :
+- `multiprocessing` :
 
 
 #### Usage `asyncio` vs `threading` vs `multiprocessing`
