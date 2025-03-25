@@ -35,5 +35,5 @@ Is my program waiting on something (like network or disk)? Or is it working hard
 
 
 #### Resources:
-    - Asyncio in Python - Full Tutorial (Tech with Tim) - https://www.youtube.com/watch?v=Qb9s3UiMSTA
+- Asyncio in Python: Full Tutorial (Tech with Tim) - https://www.youtube.com/watch?v=Qb9s3UiMSTA
  
