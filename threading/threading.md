@@ -58,3 +58,8 @@ The purpose of concurrent.futures — one of Python's most elegant and powerful 
     - `Processes` (ProcessPoolExecutor) for CPU-bound tasks
 
 It abstracts away the complexity of managing threads or processes manually — so you can focus on what you want to run, not how it runs.
+
+
+### Resources:
+
+- Python Threading Tutorial: Run Code Concurrently Using the Threading Module - https://www.youtube.com/watch?v=IEEhzQoKtQU&t=625s

@@ -51,3 +51,8 @@ Is my program waiting on something (like network or disk)? Or is it working hard
 | **Shared Memory**       | Yes                                | Yes                                  | No (needs inter-process comm.)        |
 | **Debugging**           | Easier                             | Tricky                               | Tricky                                |
 | **Blocking Code Support** | Needs non-blocking code           | Can use blocking code                | Can use blocking code                |
+
+
+### Resources
+
+Asyncio in Python - Full Tutorial - https://www.youtube.com/watch?v=Qb9s3UiMSTA
